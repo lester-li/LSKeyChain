@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "LSKeyChain.h"
+
+#define PASSWORD @"password"
 
 @interface ViewController ()
 
@@ -17,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *password = @"这是一个密码";
+    [LSKeyChain save:PASSWORD data:@{@"key":password}];
+    
+    NSLog(@" -----%@------",[((NSDictionary*)[LSKeyChain load:PASSWORD]) objectForKey:@"key"]);
+    
 }
 
 

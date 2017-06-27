@@ -15,6 +15,7 @@
 		C6C3029E1F010B5000C12E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C3029C1F010B5000C12E80 /* LaunchScreen.storyboard */; };
 		C6C302A91F010B5000C12E80 /* LSKeyChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C302A81F010B5000C12E80 /* LSKeyChainTests.m */; };
 		C6C302B41F010B5000C12E80 /* LSKeyChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C302B31F010B5000C12E80 /* LSKeyChainUITests.m */; };
+		C6C302C31F010BA400C12E80 /* LSKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C302C21F010BA400C12E80 /* LSKeyChain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C6C302AF1F010B5000C12E80 /* LSKeyChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSKeyChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C302B31F010B5000C12E80 /* LSKeyChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSKeyChainUITests.m; sourceTree = "<group>"; };
 		C6C302B51F010B5000C12E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C302C11F010BA400C12E80 /* LSKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSKeyChain.h; sourceTree = "<group>"; };
+		C6C302C21F010BA400C12E80 /* LSKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSKeyChain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C6C302921F010B5000C12E80 /* AppDelegate.m */,
 				C6C302941F010B5000C12E80 /* ViewController.h */,
 				C6C302951F010B5000C12E80 /* ViewController.m */,
+				C6C302C11F010BA400C12E80 /* LSKeyChain.h */,
+				C6C302C21F010BA400C12E80 /* LSKeyChain.m */,
 				C6C302971F010B5000C12E80 /* Main.storyboard */,
 				C6C3029A1F010B5000C12E80 /* Assets.xcassets */,
 				C6C3029C1F010B5000C12E80 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				C6C302961F010B5000C12E80 /* ViewController.m in Sources */,
 				C6C302931F010B5000C12E80 /* AppDelegate.m in Sources */,
+				C6C302C31F010BA400C12E80 /* LSKeyChain.m in Sources */,
 				C6C302901F010B5000C12E80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
